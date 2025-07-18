@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  margin: 20px;
+  max-height: 100vh;
+  gap: 2px;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+
