@@ -17,4 +17,13 @@
   cursor: pointer;
 }
 
+.star-container {
+  font-size: 2rem;
+  color: gray;
+  cursor: pointer;
+}
 
+.star {
+  font-size: 30px;
+  cursor: pointer;
+}
