@@ -14,9 +14,12 @@ const StarRating = () => {
     const total = 5;
     const [rating, setRating] = useState(value || 0);
     const [selection, setSelection] = useState(0);
-    const starArray = useMemo(() => Array.from({ length: total }), [total]);
+    const starArray = useMemo(() => {
+        return Array.from({ length: total });
+    }, [total]);
 
     const onHover = (event: any) => {
+        console.log("event", event.target.dataset)
         setSelection(event.target.dataset?.starId ?? 0);
     }
 
