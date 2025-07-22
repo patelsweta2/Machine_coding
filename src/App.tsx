@@ -3,7 +3,8 @@
 // import Accordion from "./components/Accordion"
 // import GuessNum from "./components/GuessNum"
 // import StarRating from "./components/StarRating"
-import TelephoneFormatter from "./components/TelephoneFormatter"
+// import TelephoneFormatter from "./components/TelephoneFormatter"
+import TicTacToe from "./components/TicTacToe"
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Accordion/> */}
       {/* <GuessNum/> */}
       {/* <StarRating /> */}
-      <TelephoneFormatter />
+      {/* <TelephoneFormatter /> */}
+      <TicTacToe />
     </div>
   )
 }
