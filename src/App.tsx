@@ -4,7 +4,8 @@
 // import GuessNum from "./components/GuessNum"
 // import StarRating from "./components/StarRating"
 // import TelephoneFormatter from "./components/TelephoneFormatter"
-import TicTacToe from "./components/TicTacToe"
+// import TicTacToe from "./components/TicTacToe"
+import Stepper from "./components/Stepper"
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <GuessNum/> */}
       {/* <StarRating /> */}
       {/* <TelephoneFormatter /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <Stepper />
     </div>
   )
 }
