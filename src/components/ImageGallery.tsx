@@ -10,8 +10,7 @@ const ImageGallery = () => {
     }
 
     return (
-        <div>
-            
+        <div> 
             <div style={{display:"flex",flexDirection:"row",gap:"10px",flexWrap:"wrap", justifyContent:"center", alignItems:"center", marginTop:"100px"}}>
             <h3>Select Image</h3>
             {images.map((img) => <button onClick={() => handleCurrentImg(img.image)} key={img.id}><img  src={img.image} style={{width:"150px",height:"150px",objectFit:"cover",borderRadius:"8px", cursor:"pointer"}}/></button>)}

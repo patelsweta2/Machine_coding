@@ -15,7 +15,7 @@ const Accordion = () => {
     };
     const handleToggle = (id: number) => {
         if (isMultipleOpenAllowed) {
-            setOpenItems((prev) => prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id])
+            setOpenItems((prev) => prev.includes(id) ? prev.filter((item) => item !== id) : [...prev,id])
         } else {
             setOpenItems((prev) => (prev.includes(id)) ? [] : [id])
         }
@@ -26,7 +26,7 @@ const Accordion = () => {
             <div><label htmlFor="multiOpen">Is multiple open accordion allowed?</label><input id='multipleOpen' type="checkbox" checked={isMultipleOpenAllowed} onChange={handleCheckboxChange} style={{ marginLeft: '10px', cursor: "pointer" }} /></div>
 
             <div style={{ display: "flex", marginTop: "40px", flexDirection: "column", gap: "20px" }}>
-                {Questions.map((item) => <div style={{ padding: "20px", border: "1px solid black", cursor: 'pointer', backgroundColor: openItems.includes(item.id) ? 'f0f0f0' : 'white' }} key={item.id} onClick={() => handleToggle(item.id)}><p style={{ fontWeight: "bold" }}>{item.quest}</p>{openItems.includes(item.id) && <p>{item.ans}</p>}</div>)}
+                {Questions.map((item) => <div style={{ padding: "20px", border: "1px solid black", cursor: 'pointer', backgroundColor: openItems.includes(item.id) ? 'blue' : 'white' }} key={item.id} onClick={() => handleToggle(item.id)}><p style={{ fontWeight: "bold" }}>{item.quest}</p>{openItems.includes(item.id) && <p>{item.ans}</p>}</div>)}
             </div>
         </div>
     )
