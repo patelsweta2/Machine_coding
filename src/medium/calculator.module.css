@@ -1,0 +1,10 @@
+.container {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.calculator_body {
+    padding: 3rem 1rem;
+    
+}

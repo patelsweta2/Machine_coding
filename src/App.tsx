@@ -2,11 +2,14 @@
 // import ImageGallery from "./components/ImageGallery"
 // import Accordion from "./components/Accordion"
 // import GuessNum from "./components/GuessNum"
-import StarRating from "./components/StarRating"
+// import StarRating from "./components/StarRating"
 // import TelephoneFormatter from "./components/TelephoneFormatter"
 // import TicTacToe from "./components/TicTacToe"
 // import Stepper from "./components/Stepper"
 // import Todo from "./components/Todo"
+// import SteeperRevision from "./components/SteeperRevision"
+// import Calculator from "./medium/Calculator"
+
 
 function App() {
   return (
@@ -15,11 +18,13 @@ function App() {
       {/* <Counter1/> */}
       {/* <Accordion/> */}
       {/* <GuessNum/> */}
-      <StarRating />
+      {/* <StarRating /> */}
       {/* <TelephoneFormatter /> */}
       {/* <TicTacToe /> */}
       {/* <Stepper /> */}
       {/* <Todo /> */}
+      {/* <SteeperRevision /> */}
+      {/* <Calculator /> */}
     </div>
   )
 }
